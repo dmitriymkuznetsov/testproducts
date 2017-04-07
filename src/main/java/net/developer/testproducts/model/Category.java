@@ -1,5 +1,6 @@
 package net.developer.testproducts.model;
 
+
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;

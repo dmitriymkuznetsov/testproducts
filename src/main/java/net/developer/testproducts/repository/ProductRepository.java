@@ -1,4 +1,4 @@
-package net.developer.testproducts.dao;
+package net.developer.testproducts.repository;
 
 import net.developer.testproducts.model.Product;
 import org.springframework.data.querydsl.QueryDslPredicateExecutor;

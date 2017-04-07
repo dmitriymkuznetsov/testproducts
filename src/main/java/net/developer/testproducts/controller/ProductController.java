@@ -18,12 +18,12 @@ import java.util.Map;
 public class ProductController {
 
     @Autowired
-    ProductService productService;
+    private ProductService productService;
 
     /**
      * Generate view-page of search form and products list
      *
-     * @param model
+     * @param model model of view
      * @return view-page
      */
     @RequestMapping(name = "/", method = RequestMethod.GET)
@@ -41,7 +41,7 @@ public class ProductController {
      *
      * @param filterForm filter object
      * @param bindingResult validate results
-     * @param model
+     * @param model model of view
      * @return view-page
      */
     @RequestMapping(name = "/", method = RequestMethod.POST)

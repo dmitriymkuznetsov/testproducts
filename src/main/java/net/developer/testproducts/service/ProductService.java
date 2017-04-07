@@ -13,7 +13,7 @@ public interface ProductService {
     /**
      * Select products by filter
      *
-     * @param filter
+     * @param filter object with filter criteria
      * @return List<Product> of filtered products
      */
     public List<Product> getProductByFilter(Filter filter);
